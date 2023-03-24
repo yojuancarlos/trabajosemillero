@@ -1,6 +1,8 @@
 package ejerciciosClaseabstractasEInterfaces.punto3.A;
 
-public abstract class reproductormusica {
+import ejerciciosClaseabstractasEInterfaces.punto3.B.audio;
+
+public abstract class reproductormusica implements audio {
 	
 	protected String duracion;
 	protected String tamaño;
